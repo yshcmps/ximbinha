@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Caprasimo', cursive;
+    background: url('../Png/AlunoSaidaProfessor.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(69, 55, 108);
+  }
+  
+  nav {
+    background-color: rgb(143, 189, 106);
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(69, 55, 108);
+    font-size: 24px;
+    padding: 8px 20px;
+    border-radius: 20px;
+  }
+  
+  nav a.ativo {
+    background-color: rgb(255, 227, 191);
+    border: 2px solid rgb(69, 55, 108);
+    box-shadow: 2px 2px 0 rgb(69, 55, 108);
+  }
+  
+  #conteudo {
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  #formulario-container {
+    position: absolute;
+    top: 180px;
+    left: 1000px;
+    width: 529px;
+    height: 610px;
+    background-color: rgb(255, 227, 191);
+    border: 2px solid rgb(69, 55, 108);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 2px 2px 0 rgba(69, 55, 108, 0.4);
+    box-sizing: border-box;
+  }
+  
+  #formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #formulario input {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 2px solid rgb(69, 55, 108);
+    outline: none;
+    box-shadow: 2px 2px 0 rgba(69, 55, 108, 0.5);
+  }
+  
+  #consultar {
+    font-family: 'Caprasimo', cursive;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(69, 55, 108);
+    cursor: pointer;
+    min-width: 150px;
+    text-align: center;
+    box-shadow: 2px 2px 0 rgba(69, 55, 108, 0.5);
+    background-color: rgb(251, 176, 64);
+    color: rgb(69, 55, 108);
+  }
+  
+  #voltar {
+    font-family: 'Caprasimo', cursive;
+      font-size: 40px;
+      padding: 14px 28px;
+      width: 250px;
+      border-radius: 20px;
+      border: 2px solid rgb(69, 55, 108);
+      background-color: rgb(135, 159, 198);
+      color: rgb(69, 55, 108);
+      cursor: pointer;
+      min-width: 180px;
+      text-decoration: none;
+      box-shadow: 2px 2px 0 rgba(69, 55, 108, 0.5);
+  }

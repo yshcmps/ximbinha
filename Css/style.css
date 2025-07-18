@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Caprasimo', cursive;
+  background: url('../Png/FundoHome.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(69, 55, 108); 
+}
+
+nav {
+  background-color: rgb(143, 189, 106); 
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(69, 55, 108); 
+  font-size: 24px;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+nav a.ativo {
+  background-color: rgb(255, 227, 191);
+  border: 2px solid rgb(69, 55, 108);
+  box-shadow: 2px 2px 0 rgb(69, 55, 108);
+}
+
+#container {
+  text-align: center;
+  margin-top: 180px;
+}
+
+#principal {
+  font-size: 100px;
+  margin: 0;
+}
+
+#secundario {
+  font-size: 90px;
+  margin: 0;
+}
+
+#flor {
+  width: 100px;
+  margin-top: 20px;
+}

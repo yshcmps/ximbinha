@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professor</title>
+  <link rel="stylesheet" href="../Css/apagarAluno.css" />
+  <script src="../Js/apagarProfessor.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <a href="../Html/index.html">Home</a>
+    <a href="../Html/aluno.html">Aluno</a>
+    <a href="../Html/saida.html">Saída</a>
+    <a href="../Html/professor.html"class="ativo">Professor</a>
+    <a href="../Html/filaSaida.html">Fila</a>
+  </nav>
+  
+  <main id="conteudo">
+    <div>
+      <h1>Apagar de<br>Professores</h1><br><br>
+      <a href="../Html/professor.html"><button id="voltar">Voltar</button></a>
+    </div>
+
+    <div id="formulario-container">
+      <form id="formulario" >
+        <input type="text" id="codigo" placeholder="Código de Identificação" required />
+        <button type="submit" id="apagar">Apagar</button>
+        <div id="res"></div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

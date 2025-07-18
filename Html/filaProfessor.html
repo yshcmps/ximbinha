@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saída</title>
+  <link rel="stylesheet" href="../Css/pedidoProfessor.css"/>
+  <script src="../Js/pedidoProfessor.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <a href="../Html/index.html">Home</a>
+    <a href="../Html/aluno.html">Aluno</a>
+    <a href="../Html/saida.html">Saída</a>
+    <a href="../Html/professor.html">Professor</a>
+    <a href="../Html/filaSaida.html" class="ativo">Fila</a>
+  </nav>
+
+  <main id="conteudo">
+    <div>
+      <h1>Requisição<br>de Alunos</h1><br><br>
+      <a href="../Html/filaSaida.html"><button id="voltar">Voltar</button></a>
+    </div>
+
+    <form>
+      <button type="button" onclick="limparFinalizados()">Limpar finalizados</button>
+    </form>
+
+    <div id="fila"></div>
+  </main>
+</body>
+</html>

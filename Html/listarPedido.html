@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fila de Saídas</title>
+  <link rel="stylesheet" href="../Css/listarPedido.css" />
+  <script src="../Js/listarPedidos.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <a href="../Html/index.html">Home</a>
+    <a href="../Html/aluno.html">Aluno</a>
+    <a href="../Html/saida.html">Saída</a>
+    <a href="../Html/professor.html">Professor</a>
+    <a href="../Html/filaSaida.html" class="ativo">Fila</a>
+  </nav>
+
+  <main id="conteudo">
+    <div>
+        <h1>Fila de<br>Solicitações</h1><br><br>
+        <a href="../Html/filaSaida.html"><button id="voltar">Voltar</button></a>
+    </div>
+
+    <div id="container-tabela">
+      <table>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Motivo</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="lista-pedidos">
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+</body>
+</html>

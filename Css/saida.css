@@ -1,0 +1,96 @@
+body { 
+    margin: 0;
+    font-family: 'Caprasimo', cursive;
+    background: url('../Png/AlunoSaidaProfessor.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(69, 55, 108);
+  }
+  
+  nav {
+    background-color: rgb(143, 189, 106); 
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(69, 55, 108);
+    font-size: 24px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block; 
+  }
+  
+  nav a.ativo {
+    background-color: rgb(255, 227, 191);
+    border: 2px solid rgb(69, 55, 108);
+    box-shadow: 2px 2px 0 rgb(69, 55, 108);
+  }  
+  
+  #conteudo {
+    padding: 90px;
+  }
+  
+  h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  #grid-botoes {
+    display: flex;
+    gap: 70px;
+  }
+  
+  #coluna-esquerda,
+  #coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  #cadastrar,
+  #listar,
+  #consultar,
+  #atualizar,
+  #apagar,
+  #pedido {
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 14px 0px;
+    border-radius: 20px;
+    border: 2px solid rgb(69, 55, 108);
+    cursor: pointer;
+    width: 250px; 
+    text-decoration: none;
+    box-shadow: 2px 2px 0 rgba(69, 55, 108, 0.5);
+  }
+  
+  #cadastrar {
+    background-color: rgb(242, 140, 140);
+    color: rgb(255, 227, 191);
+  }
+  
+
+  #atualizar {
+    background-color: rgb(141, 106, 204);
+    color: rgb(255, 227, 191);
+  }
+  
+  #consultar {
+    background-color: rgb(251, 176, 64);
+    color: rgb(69, 55, 108);
+  }
+  
+  #listar {
+    background-color: rgb(122, 182, 109);
+    color: rgb(69, 55, 108);
+  }
+  
+  #apagar {
+    background-color: rgb(227, 75, 61);
+    color: rgb(255, 227, 191);
+  }
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saída</title>
+  <link rel="stylesheet" href="../Css/cadastrarSaida.css" />
+  <script src="../Js/cadastrarSaida.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <nav>
+    <a href="../Html/index.html">Home</a>
+    <a href="../Html/aluno.html">Aluno</a>
+    <a href="../Html/saida.html" class="ativo">Saída</a>
+    <a href="../Html/professor.html">Professor</a>
+    <a href="../Html/filaSaida.html">Fila</a>
+  </nav>
+  <main id="conteudo">
+    <div>
+      <h1>Cadastro<br>de Saídas</h1><br><br>
+      <a href="../Html/saida.html"><button id="voltar">Voltar</button></a>
+    </div>
+
+    <div id="formulario-container">
+      <form id="formulario">
+        <input type="date" id="dataSolicitacao" name="dataSolicitacao" required />
+        <input type="time" id="horaSaida" name="horaSaida" required />
+        <input type="time" id="horaRetorno" name="horaRetorno" required />
+        <input type="text" id="motivo" name="motivo" placeholder="Motivo" required />
+        <input type="text" id="localDestino" name="localDestino" placeholder="Destino" required />
+        <input type="text" id="nomeAluno" name="nomeAluno" placeholder="Nome do Aluno" required />
+        <input type="text" id="nomeProfessor" name="nomeProfessor" placeholder="Nome do Professor" required />
+        <input type="number" id="aluno_id" name="aluno_id" placeholder="Id do Aluno" required />
+        <input type="number" id="professor_id" name="professor_id" placeholder="Id do Professor" required />
+        <button type="submit" id="cadastrar">Cadastrar</button>
+      </form>
+      <div id="res"></div>
+    </div>
+  </main>
+</body>
+</html>
